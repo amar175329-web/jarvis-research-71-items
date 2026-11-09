@@ -1,0 +1,72 @@
+Number,Name,Source,Category,Decision,Mapped_Squad,Risk_Level,Autonomy_Cap,License,Official_Link
+1,Honcho,A1,Memory,SEEKHO,S09,Low,L4,Apache-2.0,https://github.com/plastic-labs/honcho
+2,mem0,A20,Memory,SEEKHO,S09,Low,L4,Apache-2.0,https://github.com/mem0ai/mem0
+3,Codebase Memory MCP,B8,Memory,LO,S18,Safe,L4,MIT,https://github.com/DeusData/codebase-memory-mcp
+4,claude-mem,B14,Memory,SEEKHO,S05,Safe,L4,MIT,https://github.com/thedotmack/claude-mem
+5,Second Brain,C20,Memory,SEEKHO,S09,Safe,L4,Open Architecture,https://sebastianhardy.ai
+6,Agent Desktop,A3,Computer-Phone Control,SEEKHO + REFERENCE,S16B,High,L2,Apache-2.0,https://github.com/prism-labs/agent-desktop
+7,Coucou,A16,Computer-Phone Control,LO,S06,Safe,L4,MIT,https://github.com/Louis-CFM/coucou
+8,Atticus-mac,A8,Computer-Phone Control,SEEKHO,S16B,Medium,L3,MIT,https://github.com/SaarthurR/atticus-mac
+9,OpenBot,B1,Computer-Phone Control,REFERENCE,S14,Medium,L2,MIT,https://github.com/nightly-labs/openbot
+10,Expo eas simulator,B19,Computer-Phone Control,REFERENCE,S20,Safe,L4,MIT,https://docs.expo.dev
+11,CLI-Anything,A30,Computer-Phone Control,LO,S18,Medium,L2,MIT,https://github.com/HKUDS/CLI-Anything
+12,Barehands,A34,Computer-Phone Control,REFERENCE,S18,Safe,L4,MIT,https://github.com/jaredrhod/barehands
+13,browser-use,A26,Browser,LO,S15,High,L2,MIT,https://github.com/browser-use/browser-use
+14,openmuse,B2,Browser,SEEKHO,S15,Medium,L2,MIT,https://github.com/CopilotKit/openmuse
+15,OpenMausBot,A2/B20,Bots / Multi-Agent,SEEKHO,S14,Medium,L2,MIT,https://github.com/milind-soni/OpenMausBot
+16,Mark-LVI,A5,Bots / Multi-Agent,PEHLE-SE-ADVANCED,S21,Medium,L2,MIT,https://github.com/FatihMakes/Mark-LVI
+17,OpenJarvis,A9,Bots / Multi-Agent,SEEKHO + REFERENCE,S00,Medium,L2,Apache-2.0,https://github.com/open-jarvis/OpenJarvis
+18,adewaskar/jarvis,A13,Bots / Multi-Agent,SEEKHO,S07,Medium,L2,MIT,https://github.com/adewaskar/jarvis
+19,deer-flow,A22,Bots / Multi-Agent,SEEKHO,S14,Low,L4,Apache-2.0,https://github.com/bytedance/deer-flow
+20,agency-agents,A31,Bots / Multi-Agent,REFERENCE,S14,Safe,L4,MIT,https://github.com/msitarzewski/agency-agents
+21,OpenDevin,A32,Bots / Multi-Agent,REFERENCE,S18,Medium,L2,MIT,https://github.com/All-Hands-AI/OpenDevin
+22,fullstack-agent,A35,Bots / Multi-Agent,CHHODO,S00,Safe,L4,MIT,https://github.com/jaredrhod/fullstack-agent
+23,OpenDots,B3,Bots / Multi-Agent,SEEKHO,S14,Medium,L3,MIT,https://github.com/CopilotKit/OpenDots
+24,OpenTag,B4,Bots / Multi-Agent,SEEKHO,S07,Safe,L4,MIT,https://github.com/CopilotKit/OpenTag
+25,Orca,B9,Bots / Multi-Agent,LO,S18,Low,L4,MIT,https://github.com/stablyai/orca
+26,Hermes,B15,Bots / Multi-Agent,LO + SEEKHO,S22,Medium,L2,MIT,https://github.com/NousResearch/hermes-agent
+27,Herdr,C2,Bots / Multi-Agent,LO,S06,Safe,L4,Open Source,https://herdr.dev
+28,Executive Assistant,C21,Bots / Multi-Agent,SEEKHO,S02,Low,L3,Open Architecture,https://sebastianhardy.ai
+29,Content Agent,C22,Bots / Multi-Agent,LO,S14,Low,L3,Open Architecture,https://sebastianhardy.ai
+30,Chief of Staff,C23,Bots / Multi-Agent,PEHLE-SE-ADVANCED,S22,Safe,L4,Open Architecture,https://sebastianhardy.ai
+31,sellbird,A7,Bots / Multi-Agent,REFERENCE,S14,High,L2,MIT,https://github.com/ethanplusai/sellbird
+32,Ponytail,A21,Coding Skills,LO,S18,Safe,L4,MIT,https://github.com/DietrichGebert/ponytail
+33,Spec-Kit,A28,Coding Skills,SEEKHO,S00,Safe,L4,MIT,https://github.com/github/spec-kit
+34,Agent Skills,B13/C13,Coding Skills,LO,S11,Safe,L4,Apache-2.0,https://github.com/addyosmani/agent-skills
+35,jcode,B5,Coding Skills,SEEKHO + REFERENCE,S18,Medium,L2,MIT,https://github.com/1jehuang/jcode
+36,Codex,B17,Coding Skills,REFERENCE,S18,Medium,L2,Proprietary,https://github.com/openai/codex
+37,OpenCode,B18,Coding Skills,REFERENCE,S18,Medium,L2,MIT,https://github.com/anomalyco/opencode
+38,Antigravity,B16,Coding Skills,PEHLE-SE-ADVANCED,S18,Safe,L4,Proprietary,https://deepmind.google
+39,awesome-mcp-servers,A18,Plugin & MCP,REFERENCE,S11,Safe,L4,CC0,https://github.com/punkpeye/awesome-mcp-servers
+40,context7,A27/C14,Plugin & MCP,LO,S11,Safe,L4,MIT,https://github.com/upstash/context7
+41,FastMCP,A29,Plugin & MCP,LO,S11,Safe,L4,Apache-2.0,https://github.com/PrefectHQ/fastmcp
+42,bezalel.sh,A33,Plugin & MCP,SEEKHO,S11,Medium,L2,Open Source,https://bezalel.sh
+43,Graphify,B10/C15,Plugin & MCP,LO,S18,Safe,L4,MIT,https://github.com/graphifyy/graphify
+44,21st MCP,B11/C16,Plugin & MCP,LO,S18,Safe,L4,MIT,https://github.com/21st-dev/magic-mcp
+45,Strix,B12/C17,Plugin & MCP,LO,S19,Critical,L2,AGPL-3.0,https://github.com/usestrix/strix
+46,Penpot,A23,Kaam Ke Apps,REFERENCE,S18,Safe,L4,MPL-2.0,https://github.com/penpot/penpot
+47,AppFlowy,A24,Kaam Ke Apps,SEEKHO + REFERENCE,S09,Safe,L4,AGPL-3.0,https://github.com/AppFlowy-IO/AppFlowy
+48,Twenty,A25,Kaam Ke Apps,REFERENCE,S14,Safe,L4,AGPL-3.0,https://github.com/twentyhq/twenty
+49,definitive-opensource,A15,Kaam Ke Apps,REFERENCE,Reference Library,Safe,L4,MIT,https://github.com/mustbeperfect/definitive-opensource
+50,OpenWhispr,C3,Kaam Ke Apps,SEEKHO,S21,Safe,L4,MIT,https://github.com
+51,Activepieces,C4,Kaam Ke Apps,LO,S12,Medium,L2,MIT,https://github.com/activepieces/activepieces
+52,Stirling-PDF,C5,Kaam Ke Apps,REFERENCE,S18,Safe,L4,GPL-3.0,https://github.com/Stirling-Tools/Stirling-PDF
+53,Kdenlive,C6,Kaam Ke Apps,REFERENCE,Content Pipeline,Safe,L4,GPL-3.0,https://kdenlive.org
+54,Actual Budget,C7,Kaam Ke Apps,REFERENCE,S10,Safe,L4,MIT,https://github.com/actualbudget/actual
+55,Immich,C8,Kaam Ke Apps,REFERENCE,S17,Safe,L4,AGPL-3.0,https://github.com/immich-app/immich
+56,Meetily,C9,Kaam Ke Apps,SEEKHO,S09,Safe,L4,MIT,https://github.com
+57,Dub,C10,Kaam Ke Apps,REFERENCE,S18,Safe,L4,AGPL-3.0,https://github.com/dubinc/dub
+58,Documenso,C11,Kaam Ke Apps,REFERENCE,S18,Safe,L4,AGPL-3.0,https://github.com/documenso/documenso
+59,Vaultwarden,C12,Kaam Ke Apps,LO,S19,Critical,L2,AGPL-3.0,https://github.com/dani-garcia/vaultwarden
+60,Life Dashboard,C19,Kaam Ke Apps,PEHLE-SE-ADVANCED,S10,Safe,L4,Open Architecture,https://sebastianhardy.ai
+61,learnharness,A4,Khud Seekhna,SEEKHO,S09,Safe,L4,MIT,https://github.com/amosblomqvist/learnharness
+62,Project Chrysalis,C1,Khud Seekhna,LO,S22,Critical,L2,Apache-2.0,https://github.com/GoogleCloudPlatform/generative-ai
+63,Laya,B7,Khud Seekhna,LO,S22,Safe,L4,MIT,https://github.com/NandhaKishorM/laya
+64,Teardown,A17/C18,Visual-3D,LO,S18,Safe,L4,MIT,https://github.com/elvarofficial/teardown
+65,Anatomy,A6,Visual-3D,LO,S18,Safe,L4,MIT,https://github.com/wheresryan22/anatomy
+66,Compositor,B6,Visual-3D,LO,S18,Safe,L4,MIT,https://github.com/robbietilton/Compositor
+67,storytold,A14,Visual-3D,REFERENCE,Reference Library,Safe,L4,Open Source,https://github.com/storytold
+68,Humanizer,A19,Visual-3D,LO,S21,Safe,L4,MIT,https://github.com/blader/humanizer
+69,hey-jev,A12,Visual-3D,LO,S21,Safe,L4,MIT,https://github.com/henryklunaris/hey-jev
+70,awesome-llm-apps,A11,NAYI Reference,REFERENCE,Reference Library,Safe,L4,Apache-2.0,https://github.com/Shubhamsaboo/awesome-llm-apps
+71,How to be ambitious,A36,NAYI Reference,LO,S22,Safe,L4,Open Essay,https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/
