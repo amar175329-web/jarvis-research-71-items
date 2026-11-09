@@ -169,6 +169,39 @@ flowchart TD
 
 ---
 
+### 72. Reverse API Engineer (kalil0321/reverse-api-engineer)
+- **Official Link**: [https://github.com/kalil0321/reverse-api-engineer](https://github.com/kalil0321/reverse-api-engineer)
+- **Kya Hai**: Specialized CLI tool aur AI coding agent skill (`npx skills add kalil0321/reverse-api-engineer`) jo kisi bhi website ya web-application ke background network traffic (HAR/XHR) ko sniff karke ek clean, strongly-typed API client (TypeScript, Python, Go) automatically generate karta hai.
+- **Problem Hal Karta Hai, Fayda & Kamiyan**:
+  - *Problem*: JARVIS ko aksar web services par kaam karna hota hai jinka public API nahi hota ya paid API hoti hai (jo Amit ke "Zero Paid APIs / Free & Open-Source First" rule ke khilaaf hai). Standard DOM web scraping page layout change hote hi toot jaati hai.
+  - *Fayda*:
+    - **Turns Websites into APIs**: Headless browser chala kar network traffic record karta hai aur direct endpoint payloads capture karta hai.
+    - **100x Faster Execution**: Browser-use ke heavy DOM parsing ke muqable lightweight direct HTTP client banata hai (milliseconds response time, zero GPU/browser overhead).
+    - **Typed Zod / TypeScript Clients**: Auto-generates type definitions, error handlers, authentication tokens, aur example usage scripts.
+    - **Agent Skill Ready**: Claude Code, Antigravity, Codex, Cursor se seedha callable hai.
+  - *Kamiyan*: Websites with rotating bot-protections ya expiring session cookies par authorization headers ko periodic refresh karna padta hai.
+- **Platform, License & Last Update**:
+  - *Platform*: Python 3.11+ / CLI / Agent Skill / Linux, macOS, Windows.
+  - *License*: MIT License.
+  - *Last Update*: Active (Nov 2026).
+- **Architecture & Main Modules**:
+  - 1. *Capture Engine*: Playwright HAR recorder ya Chrome DevTools Protocol network stream.
+  - 2. *HAR Intelligence Filter*: Static assets (images, CSS, SVGs, analytics pings) filter karke genuine data endpoints isolate karta hai.
+  - 3. *Client Synthesizer*: LLM harness jo payload schemas infer karke production-ready typed client code generate karta hai.
+- **Setup Complexity**: **Easy / Medium** (`uv tool install reverse-api-engineer` ya `npx skills add kalil0321/reverse-api-engineer`).
+- **Security & Risk Matrix**:
+  - *Permissions*: Network capture, browser execution, local file creation.
+  - *Threat*: Third-party rate-limiting, terms of service triggers.
+  - *Safety Gate*: **L2 Capped**. Client generation safe hai, lekin newly reverse-engineered endpoints par actual authenticated requests execute karne se pehle Terminal Strip par user approval chahiye.
+- **JARVIS Mein Fitment**:
+  - *Mapped Squad*: **S18 (AI Workbench)** & **S15 (Browser & Web Controller)** & **S12 (Automations)**.
+  - *Feature*: "Instant API Client Synthesizer" — jab bhi Amit kahe "is website se daily data laao", JARVIS pehle browser-use se traffic sniff karega, phir `reverse-api-engineer` se clean TypeScript client bana kar permanent background cron job bana dega.
+- **JARVIS Mein Pehle Se Kya Hai vs Ye Behtar Kaise Hai**:
+  - JARVIS ke paas S15 browser automation hai, lekin raw network traffic ko instant typed API client mein compile karne ka dedicated synthesizer pipeline nahi tha. Ye browser scraping ko direct API speed mein convert karta hai.
+- **FAISLA**: **LO (Seedha Kaam Ka)**. Amit ke "Zero Paid APIs" mission ka direct accelerator.
+
+---
+
 ## 3. Batch 2 Skills Summary Table
 
 | # | Item Name | Category | Primary Fitment | Recommendation |
@@ -180,3 +213,4 @@ flowchart TD
 | **36** | **Codex** | Skills | S18 (Workbench) | **REFERENCE**: Local terminal CLI agent reference. |
 | **37** | **OpenCode** | Skills | S18 (Workbench) | **REFERENCE**: Open-source terminal coding agent alternative. |
 | **38** | **Antigravity** | Skills | S18, S22 | **CORE BUILDER**: Active pair-programming agentic engine. |
+| **72** | **reverse-api-engineer** | Skills | S18, S15, S12 | **LO (API Synthesizer)**: Converts any website traffic into typed TypeScript/Python API clients. |

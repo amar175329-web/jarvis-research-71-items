@@ -70,3 +70,5 @@ Number,Name,Source,Category,Decision,Mapped_Squad,Risk_Level,Autonomy_Cap,Licens
 69,hey-jev,A12,Visual-3D,LO,S21,Safe,L4,MIT,https://github.com/henryklunaris/hey-jev
 70,awesome-llm-apps,A11,NAYI Reference,REFERENCE,Reference Library,Safe,L4,Apache-2.0,https://github.com/Shubhamsaboo/awesome-llm-apps
 71,How to be ambitious,A36,NAYI Reference,LO,S22,Safe,L4,Open Essay,https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/
+72,reverse-api-engineer,B-Add,Coding Skills,LO,S18/S15,Medium,L2,MIT,https://github.com/kalil0321/reverse-api-engineer
+73,ARTEMIS,A-Add,Computer-Phone Control,LO,S16A/S22,High,L2,Apache-2.0,https://github.com/google/artemis

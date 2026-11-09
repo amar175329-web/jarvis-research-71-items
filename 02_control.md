@@ -215,6 +215,41 @@ flowchart LR
 
 ---
 
+### 73. ARTEMIS (google/artemis)
+- **Official Link**: [https://github.com/google/artemis](https://github.com/google/artemis)
+- **Kya Hai**: Google ka open-source autonomous Android automation aur verification system (17,000+ GitHub stars, Apache-2.0). Natural-language commands ko high-accuracy phone operations mein convert karta hai, 99%+ AndroidWorld benchmark success rate ke saath, aur native Model Context Protocol (MCP) server deta hai.
+- **Problem Hal Karta Hai, Fayda & Kamiyan**:
+  - *Problem*: Mobile screen par apps dynamic hoti hain (screen resolution drift, shifting coordinates, auto-dismissing popups/toasts, keyboard overlays). Traditional coordinate-based automation crash ho jaati hai. JARVIS S16A (Hands-Android) ko reliably phone operate karne ke liye closed-loop perception engine chahiye.
+  - *Fayda*:
+    - **Dual Speed Loops**: Flash Mode (reactive 3–5s observe-think-act for simple tasks) aur Pro Mode (multi-agent plan-execute-verify-summarize for deep tasks).
+    - **Dynamic-First, Coordinate-Fallback**: XML UIAutomator hierarchy se robust element locating, visual coordinate fallback ke saath.
+    - **Transient UI Busting**: Fast-action bursts aur `click_sequence` chaining se auto-fading control bars aur ephemeral toasts capture karta hai.
+    - **Native MCP Server**: Directly Antigravity, Claude Code, aur JARVIS backends se connect hota hai (`mobile_run_task`, `mobile_diagnose`, `mobile_get_device_state`).
+    - **System Diagnostics**: Built-in ADB commands, Logcat stream monitoring, screen recording analysis, aur automatic crash recovery.
+  - *Kamiyan*: Pro mode continuous visual reasoning ke dauran extra tokens le sakta hai; real physical phone par USB debugging ya WiFi ADB connection zaroori hai.
+- **Platform, License & Last Update**:
+  - *Platform*: Android (Physical devices & Emulators/AVD via ADB), Python 3.12+ host engine, Native MCP.
+  - *License*: Apache License 2.0 (Google open-source).
+  - *Last Update*: Active (Nov 2026, 17,063 stars).
+- **Architecture & Main Modules**:
+  - 1. *Device Lock & Manager*: `DeviceExecutionLock` managing multi-device allocation and mutual exclusion.
+  - 2. *FlashRunner*: Single-LLM reactive loop chaining taps without graph overhead.
+  - 3. *Pro Graph Orchestrator*: Planner (living markdown milestones) -> Operator (screen analysis + tool execution) -> Safety Net (pre-execution XML/pixel verification) -> Checker (visual audit & assertions).
+  - 4. *Diagnostics*: Self-healing ADB restart, RSA key regeneration, and queue ticket cleanup.
+- **Setup Complexity**: **Medium** (`git clone https://github.com/google/artemis.git && ./start.sh`).
+- **Security & Risk Matrix**:
+  - *Permissions*: Android ADB shell, input tap/swipe/keyevent, UI hierarchy dump, screencap.
+  - *Threat*: Unintended actions on sensitive apps (banking, messaging, deletions).
+  - *Mandatory Safety Gate*: **L2 Capped**. Safe app launches, navigation, and read-only searches run at L3/L4; any payment, checkout, or message deletion triggers an interactive confirmation on Amit's Terminal Strip before firing. Strictly complies with the **Universal 3-Tier App Launch Law**.
+- **JARVIS Mein Fitment**:
+  - *Mapped Squad*: **S16A (Hands-Android - Phone Control)** & **S22 (Brain - Autonomy Execution)**.
+  - *Feature*: S16A Phone Control ka core execution engine banega. Coucou terminal strip ke zariye approval milega, aur Artemis device par action execute karega.
+- **JARVIS Mein Pehle Se Kya Hai vs Ye Behtar Kaise Hai**:
+  - JARVIS S16A ke paas basic ADB wrappers aur Small JARVIS companion intent scripts the, lekin 99% reliable closed-loop visual reasoning, transient UI handling, aur self-diagnosing execution incident logging nahi thi. Artemis transforms S16A into a production-grade autonomous phone pilot.
+- **FAISLA**: **LO (Seedha Kaam Ka)**. S16A Hands-Android squad ka primary phone automation engine.
+
+---
+
 ## 3. Batch 1 Control Summary & Recommendation Table
 
 | # | Item Name | Category | Primary Fitment | Recommendation |
@@ -226,3 +261,4 @@ flowchart LR
 | **10** | **Expo eas simulator** | Control | S20 (QA), S16A | **REFERENCE**: Cloud iOS simulator testing pipeline. |
 | **11** | **CLI-Anything** | Control | S18 (Workbench) | **LO**: Convert heavy GUI software into agent-friendly JSON CLI commands. |
 | **12** | **Barehands** | Control | S18 (Workbench) | **REFERENCE**: Optional Iron Man gesture control in AI Workbench. |
+| **73**| **ARTEMIS** | Control | S16A (Hands-Android), S22 | **LO (Core Engine)**: Google's 99%+ AndroidWorld autonomous phone automation framework. |

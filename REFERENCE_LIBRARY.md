@@ -33,6 +33,8 @@
 | *"Client contracts aur agreements digitally sign karwao"* | `documenso/documenso` | Cryptographic digital signature infrastructure | AGPL-3.0 | Design-Clone SaaS client onboarding reference. |
 | *"Meeting audio transcribe karke action items nikalo"* | `Meetily` | Local Whisper transcription, automated task extraction | MIT | S09/S08 meeting note intake pattern. |
 | *"Desktop GUI app ko agent CLI mein convert karo"* | `HKUDS/CLI-Anything` (clianything.cc) | 7-phase GUI to JSON CLI converter pipeline | MIT | Directly wrap desktop software with structured JSON outputs. |
+| *"Android phone par apps automate karo (WhatsApp, Maps, Settings)"* | `google/artemis` | 99%+ AndroidWorld benchmark, Flash/Pro loops, Logcat capture | Apache-2.0 | S16A phone execution engine ke roop mein mount karo. |
+| *"Bina paid API ke kisi website ka direct typed client banao"* | `kalil0321/reverse-api-engineer` | HAR network capture, TypeScript/Python API synthesis | MIT | Network endpoints sniff karke clean client code generate karo. |
 
 ---
 

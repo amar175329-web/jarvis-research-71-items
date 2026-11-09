@@ -93,3 +93,5 @@
 | 69 | hey-jev | Visual | [x] | [x] | [x] | [x] |
 | 70 | awesome-llm-apps | Reference | [x] | [x] | [x] | [x] |
 | 71 | How to be ambitious | Reference | [x] | [x] | [x] | [x] |
+| 72 | reverse-api-engineer | Skills | [x] | [x] | [x] | [x] |
+| 73 | ARTEMIS | Control | [x] | [x] | [x] | [x] |

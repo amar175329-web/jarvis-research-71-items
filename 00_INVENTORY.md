@@ -129,17 +129,19 @@ Categories:
 | **69** | **hey-jev** | Group A (12) | Visual-3D & Creative | [github.com/henryklunaris/hey-jev](https://github.com/henryklunaris/hey-jev) | Voice assistant with Fish Audio S2.1 emotion tags (`[chuckling]`, `[sighing]`) | S21 (Persona/Voice) |
 | **70** | **awesome-llm-apps**| Group A (11) | NAYI: Reference | [github.com/Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Comprehensive cookbook of 100+ production LLM applications, RAG pipelines, agents | Reference Library |
 | **71** | **How to be ambitious**| Group A (36) | NAYI: Reference | [felixrieseberg.com/how-to-be-more-ambitious](https://felixrieseberg.com) | Foundational essay on elevating agent altitude, depth, speed, and range | S22 (Brain Philosophy) |
+| **72** | **reverse-api-engineer** | Group B (Additional) | Coding Skills | [github.com/kalil0321/reverse-api-engineer](https://github.com/kalil0321/reverse-api-engineer) | Reverse engineers websites into typed TypeScript/Python API clients via network capture | S18 (Workbench), S15 (Browser) |
+| **73** | **ARTEMIS** | Group A (Additional) | Computer-Phone Control | [github.com/google/artemis](https://github.com/google/artemis) | Google's autonomous Android automation system (99%+ AndroidWorld, Flash & Pro execution, native MCP) | S16A (Hands-Android), S22 (Brain) |
 
 ---
 
 ## 4. Category Breakdown Summary
 
 ```mermaid
-pie title 71 Unique Research Items by Category
+pie title 73 Unique Research Items by Category
     "Bots / Multi-Agent" : 17
     "Kaam Ke Apps" : 15
-    "Coding Skills" : 7
-    "Computer-Phone Control" : 7
+    "Coding Skills" : 8
+    "Computer-Phone Control" : 8
     "Plugin & MCP" : 7
     "Visual-3D & Creative" : 6
     "Memory" : 5
@@ -152,15 +154,15 @@ pie title 71 Unique Research Items by Category
 |---|:---:|---|
 | **Bots / Multi-Agent** | 17 | S14 (Bots), S22 (Brain), S00 (Arch) |
 | **Kaam Ke Apps** | 15 | Reference Library, S12 (Auto), S10 (Boards), S18 |
-| **Coding Skills** | 7 | S18 (Workbench), S11 (Extend), S20 (QA) |
-| **Computer-Phone Control** | 7 | S16A (Hands-Android), S16B (Hands-Brain), S06 (Quick) |
+| **Coding Skills** | 8 | S18 (Workbench), S11 (Extend), S20 (QA) |
+| **Computer-Phone Control** | 8 | S16A (Hands-Android), S16B (Hands-Brain), S06 (Quick) |
 | **Plugin & MCP** | 7 | S11 (Extend), S09 (Memory), S19 (Safety) |
 | **Visual-3D & Creative** | 6 | S18 (Workbench), S21 (Persona/Voice) |
 | **Memory** | 5 | S09 (Memory-Knowledge), S05 (History) |
 | **Khud Seekhna & Self-Evolving** | 3 | S22 (Brain), S19 (Safety) |
 | **Browser** | 2 | S15 (Browser) |
 | **NAYI: Architecture & Knowledge Reference** | 2 | S22 (Brain Philosophy), Reference Library |
-| **TOTAL UNIQUE ITEMS** | **71** | **100% Accounted For** |
+| **TOTAL UNIQUE ITEMS** | **73** | **100% Accounted For** |
 
 ---
 
